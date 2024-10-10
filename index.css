@@ -1,0 +1,43 @@
+.title{
+color: azure;
+margin-left: 35%;
+}
+
+
+#colorbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+    border-style: dashed;
+    border-radius: 20px;
+    height: 300px;
+    width: 700px;
+    margin: 0% auto;
+    padding: 10px;
+    font-size: 2vh;
+}
+
+.but {
+    
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.but1 {
+    display: grid;
+    margin: 0% auto;
+    place-items: center;
+}
+
+.but button {
+    display: flex;
+    background: #ffffff;
+    
+padding: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10%;
+}
